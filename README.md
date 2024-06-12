@@ -6,11 +6,13 @@
 ## Funcionalidades
 
 ### Auto Networking
-La función de auto networking permite enviar solicitudes de conexión automáticamente a personas en LinkedIn. El bot envía aleatoriamente entre 25 y 50 solicitudes de conexión, y en cada acción automática que realiza, espera de manera aleatoria entre 3 y 9 segundos para evitar ser detectado como bot por LinkedIn.
+La función de auto networking permite enviar solicitudes de conexión automáticamente a personas en LinkedIn. El bot envía aleatoriamente entre 25 y 50 solicitudes de conexión, y en cada acción automática que realiza, espera de manera aleatoria entre 3 y 9 segundos para evitar ser detectado como bot por LinkedIn. Se recomienda no utilizarla mas de una vez al dia.
 
 #### Requisitos
-1. Tener Google Chrome instalado y configurado en idioma español.
-2. Para obtener la URL correcta, ve a la barra de búsqueda de LinkedIn, busca el tipo de personas que deseas agregar (por ejemplo, "analista de datos"), selecciona "Personas" en el filtro de la sección superior, y finalmente copia y pega la URL resultante.
+1. Tener windows como sistema operativo.
+2. Tener Google Chrome instalado y configurado en idioma español.
+
+3. Para obtener la URL correcta, ve a la barra de búsqueda de LinkedIn, busca el tipo de personas que deseas agregar (por ejemplo, "analista de datos"), selecciona "Personas" en el filtro de la sección superior, y finalmente copia y pega la URL resultante.
 
 #### Ejemplo
 ![EJEMPLO](./assets/screenshot.png)
