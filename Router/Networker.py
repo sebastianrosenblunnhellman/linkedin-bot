@@ -1,11 +1,11 @@
 import streamlit as st
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.options import Options
 import random
 import time
 import csv
@@ -20,22 +20,22 @@ class Networker:
     def __init__(self):
         try:
             # Opciones para el modo sin cabeza
-            chrome_options = Options()
-            chrome_options.add_argument("--headless")
-            chrome_options.add_argument("--no-sandbox")
-            chrome_options.add_argument("--disable-dev-shm-usage")
-            chrome_options.add_argument("--disable-gpu")
-            chrome_options.add_argument("--window-size=1920,1080")
+            firefox_options = Options()
+            firefox_options.add_argument("--headless")
+            firefox_options.add_argument("--no-sandbox")
+            firefox_options.add_argument("--disable-dev-shm-usage")
+            firefox_options.add_argument("--disable-gpu")
+            firefox_options.add_argument("--window-size=1920,1080")
             
-            # Inicializa el servicio para ChromeDriver
-            self.service = Service(executable_path=ChromeDriverManager().install())
-            # Inicializa el controlador de Chrome
-            self.driver = webdriver.Chrome(service=self.service, options=chrome_options)
+            # Inicializa el servicio para GeckoDriver
+            self.service = Service(executable_path=GeckoDriverManager().install())
+            # Inicializa el controlador de Firefox
+            self.driver = webdriver.Firefox(service=self.service, options=firefox_options)
             # Genera un número aleatorio de conexiones objetivo entre 25 y 50
             self.target_connections = random.randint(25, 50)
             self.connections_made = 0  # Contador de conexiones realizadas
         except Exception as e:
-            logging.error(f"Error al iniciar el controlador de Chrome: {e}")
+            logging.error(f"Error al iniciar el controlador de Firefox: {e}")
             raise
 
     def login(self, email, password):
@@ -154,7 +154,7 @@ password = st.text_input("Password", type="password")
 url = st.text_input("URL de búsqueda de LinkedIn")
 
 if st.button("Iniciar Bot"):
-    if email and password and url:
+    if email, password, url:
         run_networker(email, password, url)
         st.success("Proceso completado y resultados guardados.")
     else:
