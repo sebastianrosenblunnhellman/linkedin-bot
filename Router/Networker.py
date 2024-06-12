@@ -18,8 +18,8 @@ class Networker:
         self.service = Service(executable_path=ChromeDriverManager().install())
         # Inicializa el controlador de Chrome
         self.driver = webdriver.Chrome(service=self.service)
-        # Genera un número aleatorio de conexiones objetivo entre 51 y 79
-        self.target_connections = random.randint(51, 79)
+        # Genera un número aleatorio de conexiones objetivo entre 25 y 50
+        self.target_connections = random.randint(25, 50)
         self.connections_made = 0  # Contador de conexiones realizadas
 
     def login(self, email, password):
