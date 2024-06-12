@@ -22,14 +22,12 @@ La función de auto networking permite enviar solicitudes de conexión automáti
 ### Auto Recomendaciones
 La función de auto recomendaciones permite realizar recomendaciones automáticas (equivalente a un "Like") a publicaciones y comentarios en el feed de LinkedIn. El bot solo solicita las credenciales de acceso y comienza a operar automáticamente.
 
-## Descarga y Ejecución
-Si deseas descargar y ejecutar el código fuente de la app en tu propia máquina, puedes hacerlo desde el siguiente enlace: [LinkedIn-Bot](URL)
 
 ## Colaboraciones y Mejoras
 El proyecto está abierto a colaboraciones y mejoras. Las próximas mejoras que planeamos incluirán la posibilidad de guardar en el propio navegador la actividad del bot y visualizarla a través de un dashboard.
 
-## Instalación
-En la consola de tu IDE
+## Descarga y Ejecución
+Si deseas descargar y ejecutar el código fuente de la app en tu propia máquina, puedes hacerlo de la siguiente manera. Ejecuta los siguientes comandos en tu consola de IDE
 
 1. Clona el repositorio:
     ```bash
