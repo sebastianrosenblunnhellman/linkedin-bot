@@ -38,7 +38,7 @@ y comentarios del feed en LinkedIn. El bot solo solicita las credenciales de acc
 
 ### Descarga y Ejecución
 Si por motivos de seguridad deseas descargar y ejecutar en tu propia máquina el código fuente de la app, puedes hacerlo desde 
-el siguiente enlace: [LinkedIn-Bot](URL)
+el siguiente enlace: [LinkedIn-Bot](https://github.com/sebastianrosenblunnhellman/linkedin-bot)
 
 ### Colaboraciones y Mejoras
 El proyecto está abierto a colaboraciones y mejoras. Las próximas mejoras que vamos a realizar al código incluirán la 
