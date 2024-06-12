@@ -2,10 +2,6 @@
 
 ¡Bienvenido a LinkedIn-Bot 1.0! Esta aplicación te ayudará a automatizar tareas en LinkedIn, como enviar solicitudes de conexión y recomendar publicaciones y comentarios en el feed.
 
-Puedes ver una demo de la aplicación en el siguiente enlace: 
-
-[Demo App](https://autolinkedin.streamlit.app/)
-
 
 ## Funcionalidades
 
@@ -27,7 +23,7 @@ La función de auto recomendaciones permite realizar recomendaciones automática
 El proyecto está abierto a colaboraciones y mejoras. Las próximas mejoras que planeamos incluirán la posibilidad de guardar en el propio navegador la actividad del bot y visualizarla a través de un dashboard.
 
 ## Descarga y Ejecución
-Si deseas descargar y ejecutar el código fuente de la app en tu propia máquina, puedes hacerlo de la siguiente manera. Ejecuta los siguientes comandos en tu consola de IDE
+Para descargar y ejecutar el código fuente de la app en tu propia máquina puedes ejecutar los siguientes comando en una terminar de tu IDE de preferencia (requiere python y git instalado)
 
 1. Clona el repositorio:
     ```bash
